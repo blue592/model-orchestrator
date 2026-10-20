@@ -1,0 +1,10 @@
+{
+  "name": "model-orchestrator",
+  "version": "0.1.0",
+  "description": "Provider-neutral CLI for safely switching AI coding profiles with health checks and atomic activation.",
+  "type": "module",
+  "bin": { "model-orchestrator": "src/cli.js" },
+  "scripts": { "test": "node --test", "start": "node src/cli.js" },
+  "license": "MIT"
+}
+
